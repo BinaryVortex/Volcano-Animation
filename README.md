@@ -1,49 +1,69 @@
 # Volcano Animation
 
-A lightweight, eye-catching volcano animation built with HTML and CSS (and a small amount of JavaScript). This repository demonstrates how to create an animated volcano scene using modern CSS techniques and simple markup.
-
 ![Volcano Animation Screenshot](./Screenshot%202024-08-30%20112748.png)
 
-## Demo
-Open `index.html` in your browser to see the animation in action. If you use VS Code, the "Live Server" extension will show the animation and update automatically as you edit the files.
+A small, lightweight animated volcano scene built with HTML and CSS. This repository is a compact demo you can open in any modern browser to study pure-CSS animation techniques and quickly customize a scenic effect for your own projects.
 
-## Features
-- Smooth CSS-driven animation
-- Responsive layout suitable for small demo pages
-- Easy-to-read, well-commented CSS for learning and customization
+Demo
 
-## Technologies
-- HTML
-- CSS
-- (Optional) JavaScript for any small interactive behaviors
+- Open `index.html` in your web browser to view the animation.
+- For live reloading during edits, use the VS Code "Live Server" extension or any local static file server (for example: `npx serve .`).
 
-## Getting Started
+Why this project
+
+- Easy-to-follow example of CSS animations layered to produce a complex-looking scene without heavy JavaScript.
+- Good starting point for learning CSS keyframes, transforms, and layering.
+- Small, self-contained and easy to adapt for headers, landing pages, or learning exercises.
+
+Features
+
+- Smooth CSS-driven animation with layered effects.
+- Single-file demo markup (`index.html`) and stylesheet (`style.css`) for easy editing.
+- Included screenshot for quick preview in the README.
+
+Files
+
+- `index.html` — demo markup and structure for the scene.
+- `style.css` — core styles, layering and animation rules.
+- `Screenshot 2024-08-30 112748.png` — preview image embedded above.
+
+Quick start
+
 1. Clone the repository:
 
    git clone https://github.com/BinaryVortex/Volcano-Animation.git
 
-2. Open the project folder and open `index.html` in your web browser.
+2. Change into the project folder and open `index.html` in your browser:
 
-3. (Optional) Use a local development server or VS Code Live Server for auto-reload while editing.
+   cd Volcano-Animation
+   open index.html  # or double-click in your file manager
 
-## File Structure
-- `index.html` — markup for the animation
-- `style.css` — core styles and animation rules
-- `Screenshot 2024-08-30 112748.png` — preview image used in this README
+3. Optional: Run a simple static server for a more realistic environment and automatic reloads:
 
-## Customization
-- Tweak colors, sizes, and animation durations in `style.css` to change the look and feel.
-- Add more layers or particles to increase complexity and realism.
+   npx serve .
 
-## Contributing
-Contributions are welcome. If you'd like to improve the animation or add new effects:
-1. Fork the repo
-2. Create a feature branch
-3. Open a pull request describing your changes
+Customize
 
-## License
-No license specified. If you'd like to add a license, consider adding an `LICENSE` file (for example, MIT) so others know how they may use your project.
+- Colors & shapes: edit `style.css` to change colors, sizes and gradients.
+- Timing: tweak keyframe durations and delays to make the eruption slower or faster.
+- Complexity: add more layers or particle elements in the HTML and animate them for additional depth.
+
+Contributing
+
+Contributions are welcome — improvements, new visual effects, accessibility tweaks, or porting to other frameworks are all great additions. To contribute:
+
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature-name`.
+3. Commit your changes and open a pull request describing what you changed and why.
+
+License
+
+No license file is included. If you want this project to be reusable by others, consider adding an open-source license such as MIT. To add one, create a `LICENSE` file in the repository.
+
+Acknowledgements
+
+Built and maintained by BinaryVortex.
 
 ---
 
-Created by BinaryVortex • Volcano Animation — simple demo built with HTML & CSS
+Volcano Animation — simple, focused CSS demo for learning and quick integration.
